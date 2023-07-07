@@ -1,0 +1,93 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: blanchedalmond;
+}
+.container .header {
+    width: 80%;
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.container .header > h1 {
+    margin-bottom: 20px;
+}
+.container .header > p {
+    padding: 5px;
+    font-size: 30px;
+}
+.container .header > p > span {
+    color: rgb(95, 158, 84);
+    font-weight: bold;
+}
+.container .header > button {
+    padding: 15px;
+    width: 80%;
+    max-width: 300px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #222;
+    color: #fff;
+    border-radius: 4px;
+    user-select: none;
+}
+.gcont{
+    background: #ddd;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px #827dee;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+    font-family: Tahoma;
+    user-select: none;
+}
+.gcont .player {
+    background: #51f93e!important;
+    box-shadow: 0 0 20px #888;
+    transform: scale(1.02);
+}
+.gcont .computer {
+    background: #21deff!important;
+    box-shadow: 0 0 20px #888;
+    transform: scale(1.02);
+}
+.gcont > div {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    width: calc(100% / 3 - 10px * 2 - 4px - 10px * 2);
+    overflow: hidden;
+    border-radius: 4px;
+    transition: all .5s;
+    cursor: pointer;
+    user-select: none;
+}
+.gcont > div:hover {
+    background: #ccc;
+    box-shadow: 0 0 20px #888;
+    transform: scale(1.02);
+}
+.gcont > div > img {
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.gcont > div > span {
+    font-size: 32px;
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}

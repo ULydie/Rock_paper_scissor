@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paper scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body onload="newGame()">
+    
+        <div class="container">
+            <div class="header">
+                <h1>Rock Paper Scissors</h1>
+                <p>You <span id="user"></span></p>
+                <p>Computer <span id="comp"></span></p>
+                
+                <button onclick="newGame()">New Game</button>
+            </div>
+            
+            <div class="gcont">
+                <div id="rock" class="" onclick="pickOption(1)">
+                    <img src="pic/paper1.png">
+                    <span>Rock</span>
+                </div>
+                <div id="papel" class="" onclick="pickOption(2)">
+                    <img src="pic/paper3.png">
+                    <span>Paper</span>
+                </div>
+                <div id="scissor" class="" onclick="pickOption(3)">
+                    <img src="pic/paper2.png">
+                    <span>Scissors</span>
+                </div>
+            </div>
+        </div>
+        <script src="jsstyle.js"></script>
+    </body>
+    
+</body>
+</html>
